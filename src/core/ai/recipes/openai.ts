@@ -14,7 +14,7 @@ export const openai: Recipe = {
     embedding: {
       models: ['text-embedding-3-large', 'text-embedding-3-small'],
       default_dims: 1536,
-      dims_options: [256, 512, 768, 1024, 1536, 3072],
+      dims_options: [256, 512, 768, 1024, 1536, 2560, 3072],
       cost_per_1m_tokens_usd: 0.13,
       price_last_verified: '2026-04-20',
       // OpenAI per-request hard cap is 300K tokens. Free/Tier-1 TPM is 1M.
